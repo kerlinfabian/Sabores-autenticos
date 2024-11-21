@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+
+body {
+    background: white;
+      font-family: "Arima";
+     
+      background-repeat: no-repeat;
+ 
+ 
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(24, 23, 23);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+li:hover{
+    background-color: red;
+    border-radius: 10px;
+   
+}
+
+.imagenes   {
+    display: flex;
+    justify-content: space-between;
+    margin-top:0px;
+}
+.eslogan {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white; 
+    font-family: "Arima", sans-serif; 
+    font-size: 24px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
