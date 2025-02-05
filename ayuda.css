@@ -1,0 +1,77 @@
+body {
+    font-family: Arima;
+}
+
+h1{
+    text-align: center;
+}
+
+.nombre{
+    margin-left: 400px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.email{
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+.problema{
+    margin-left: 350px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+button{
+    margin-left: 530px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: rgb(174, 174, 174);
+    color:  black;
+    cursor: pointer;
+
+}
+#tamaño{
+    width: 300px;
+    height: 24px;
+}
+
+.fab{
+    margin: 4px;
+    font-size: 23px;
+    color: rgb(193, 127, 222);
+}
+body{
+    background-image: url(imagenes/fondo\ 1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(24, 23, 23);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+*{
+    margin: 0;
+}
+
+.redes {
+    margin-top: 120px;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: "Arima";
+    background-image: url(imagenes/interior.jpg);
+    background-size: cover;
+    
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.texto {
+    width: 85%;
+    font-size: 25px;
+    margin-left: 70px;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-cuadro {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%; 
+    text-align: justify;
+    backdrop-filter: blur(2px);
+}

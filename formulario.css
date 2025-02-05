@@ -1,0 +1,52 @@
+section {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+    backdrop-filter: blur(2px);
+}
+
+
+#tamaño {
+    width: 300px;
+    height: 20px;
+}
+.nombre{
+    margin-left: 400px;
+    font-size: 20px;
+    color: white;
+}
+.email{
+    margin-left: 410px;
+    margin-top: 18px;
+    font-size: 20px;
+    color: white;
+}
+.direccion{
+    margin-left: 385px;
+    margin-top: 18px;
+    font-size: 20px;
+    color: white;
+}
+.pago{
+    margin-left: 410px;
+    margin-top: 18px;
+    font-size: 20px;
+    color: white;
+}
+body{
+    background-image: url(imagenes/fondo\ 1.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+button{
+    margin-left: 530px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    background-color: #1c1c1c;
+    color: white ;
+    cursor: pointer;
+}
